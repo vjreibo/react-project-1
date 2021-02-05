@@ -48,7 +48,7 @@ function App() {
     else{
       return (
         <main>
-          <h1>No tours left</h1>
+          <h1>No tours left sorry</h1>
           <button className='btn' onClick={fetchTours}>Fetch Tours</button>
         </main>
       );
