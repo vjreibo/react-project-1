@@ -13,6 +13,8 @@ const SingleColor = ({rgb, weight, index, hex}) => {
     };
   },[alert])
 
+  console.log(alert);
+
 
   return (
     <article 
