@@ -33,7 +33,7 @@ function App() {
       setIsEditing(false);
       showAlert(true, 'success', 'value changed');
     } else {
-      showAlert(true, 'success', 'item added to the list');
+      sshowAlert(true, 'success', 'item added to the list');
       const newItem = { id: new Date().getTime().toString(), title: name };
 
       setList([...list, newItem]);
